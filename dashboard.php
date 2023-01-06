@@ -3,6 +3,8 @@ include 'authentication.php';
 include 'include/header.php';
 include 'include/top_navbar.php';
 include 'include/side_navbar.php';
+include 'form_process/logout.php';
+
 ?>
 
 

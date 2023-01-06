@@ -1,5 +1,6 @@
  <?php
   include 'header.php';
+
  ?>
  
  <!-- Navbar -->
@@ -49,7 +50,7 @@
           <li><a class="dropdown-item" href="#">Another action</a></li>
           <li><a class="dropdown-item" href="#">Something else here</a></li>
           <form action="../form_process/login.php" method="POST">
-          <button type="submit" name="logout_btn" class="dropdown-item" >Logout</button>
+          <input type="submit" name="logout_btn" class="dropdown-item" value="Logout" >
           </form>
         </ul>
       </div>

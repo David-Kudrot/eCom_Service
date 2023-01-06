@@ -1,13 +1,14 @@
 <?php session_start();
-include '../authentication.php';
+//include '../authentication.php';
 include '../connection/connection.php';
 
 
-
+   
 
 // admin login form processing
 if(isset($_POST['admin_login'])) {
 
+   
     $email = $_POST['email'];
     $password = $_POST['password'];
 
