@@ -1,5 +1,4 @@
 <?php session_start();
-date_default_timezone_set('Asia/Kolkata');
 include 'connection/connection.php';
 include 'function_check/login_process.php';
 
@@ -71,7 +70,7 @@ if(isset($_SESSION['authentication'])) {
           </div>
           <!-- /.col -->
           <div class="col-4">
-            <input type="submit" name="admin_login" class="btn btn-primary btn-block" value="Sign In">Sign In</input>
+            <input type="submit" name="admin_login" class="btn btn-primary btn-block" value="Sign In">
           </div>
           <!-- /.col -->
         </div>
